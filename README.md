@@ -4,7 +4,7 @@ Human can't predict the future! What's emergence truth now it may be failed soon
 
 Experience > Implementation > Imagination > Knowledge > Education
 -----------------------------------------------------------------
-Use tool what you know the best
+Use tool what you know the best! You and your team is comfortable with that and run with that.
 
 1. **Understand** and **Complete**|**Implement** stability quickly
 2. **Release** quality
