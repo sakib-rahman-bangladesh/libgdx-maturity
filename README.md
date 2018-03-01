@@ -7,7 +7,7 @@ Use tool what you know the best where you and your team is comfortable with that
 
 **Ideas don't come out fully formed. They only become clear as you work on them. You just have to get started.**
 
-**Remember:** Get started is easy but **doing something great is actually difficult**. Successful peoples strategy patterns key consist of **Goal**, **Discipline**, **consistancy**, **plan**, **time**.
+**Remember:** Get started is easy but **doing something great is actually difficult**. Successful peoples success strategy keys consist of **Goal**, **Discipline**, **consistancy**, **plan**, **time**.
 
 1. **Understand** and **Complete**|**Implement** stability quickly
 2. **Release** quality
