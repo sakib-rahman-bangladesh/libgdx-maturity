@@ -8,3 +8,5 @@ Experience > Implementation > Imagination > Knowledge > Education
 3. **Release** quality
 4. **Listen** to users
 5. **Be matured** and **productive** model
+
+Use tool what you know the best.
