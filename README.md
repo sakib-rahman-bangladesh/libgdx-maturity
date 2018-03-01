@@ -1,5 +1,5 @@
 # Philosophy
-Human can't predict the future! What is emergence truth now it may be failed soon. So, present what you did then what you know. 
+Human can't predict the future! What's emergence truth now it may be failed soon. Don't need to show excuse! Just, failure is only mine. Be always ready to take the greatest challenge ever you didn't face. **Show what u did then what u know.**
 #### Goal, Discipline, consistancy, plan ####
 
 Experience > Implementation > Imagination > Knowledge > Education
