@@ -12,7 +12,7 @@ Remember
 --------
 Ideas don't come out fully formed. They only become clear as you work on them. You just have to get started. Get started is easy but **doing something great is actually difficult**. Successful peoples success strategy keys are  consist of **Goal**, **Discipline**, **consistancy**, **plan**, **time**, **working hard**.
 
-1. **Completion:** Understand -> Complete|Implement stability following RERO (release early, release often, Listen to users)
+1. **Completion:** Quick completion first, following RERO(release early, release often, listen to customers)
 2. **Quality:** Release quality where **stop spending ours with researching**
-4. **Business:** Realtime cashflow
+4. **Business:** Ensure realtime cashflow
 
