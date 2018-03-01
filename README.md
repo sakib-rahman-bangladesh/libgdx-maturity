@@ -8,11 +8,13 @@ You need to build something before you know what you are building! Use tool what
 
 [How do we figure out what we are building?](https://www.youtube.com/watch?v=DFP6UDgVJtE)
 
-Dev, Engage, Earn
------------------
-1. **Completion:** Quick completion first, following RERO(release early, release often, listen to customers)
-2. **Quality:** Release quality where **stop spending ours with researching**
-4. **Business:** Ensure realtime cashflow
+Develop, Engage, Earn
+---------------------
+1. Develop product & Engage users 
+   - **Completion:** Quick completion first, following RERO(release early, release often, listen to customers)
+   - **Quality:** Release quality where **stop spending ours with researching**
+4. Earn money
+   - **Business:** Ensure realtime cashflow
 
 Remember
 --------
