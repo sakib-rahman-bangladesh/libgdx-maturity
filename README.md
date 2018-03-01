@@ -1,4 +1,4 @@
-Experience > Implementation > Imagination > Knowledge > Academic Education
+Experience > Implementation > Imagination > Knowledge > Education
 --------------------------------------------------------------------------
 1. **Understand** first
 2. **Complete** stability quickly
