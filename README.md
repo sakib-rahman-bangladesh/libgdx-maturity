@@ -8,11 +8,12 @@ You need to build something before you know what you are building! Use tool what
 
 [How do we figure out what we are building?](https://www.youtube.com/watch?v=DFP6UDgVJtE)
 
-Remember
---------
-Ideas don't come out fully formed. They only become clear as you work on them. You just have to get started. Get started is easy but **doing something great is actually difficult**. Successful peoples success strategy keys are  consist of **Goal**, **Discipline**, **consistancy**, **plan**, **time**, **working hard**.
-
+Dev, Engage, Earn
+-----------------
 1. **Completion:** Quick completion first, following RERO(release early, release often, listen to customers)
 2. **Quality:** Release quality where **stop spending ours with researching**
 4. **Business:** Ensure realtime cashflow
 
+Remember
+--------
+Ideas don't come out fully formed. They only become clear as you work on them. You just have to get started. Get started is easy but **doing something great is actually difficult**. Successful peoples success strategy keys are  consist of **Goal**, **Discipline**, **consistancy**, **plan**, **time**, **hard working**.
