@@ -16,8 +16,8 @@ Develop, Engage, Earn
 2. Earn money
    - **Business:** Ensure realtime cashflow
 
-Versions
---------
+Targets from versions
+---------------------
 **Alpha** Completion + Testers
 
 **Beta** Quality + Users 
