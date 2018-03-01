@@ -4,9 +4,10 @@ Human can't predict the future! What's emergence truth now it may be failed soon
 
 Experience > Implementation > Imagination > Knowledge > Education
 -----------------------------------------------------------------
-1. **Understand** and **Complete**|**Implement** stability quickly
-3. **Release** quality
-4. **Listen** to users
-5. **Be matured** and **productive** model
+Use tool what you know the best
 
-Use tool what you know the best.
+1. **Understand** and **Complete**|**Implement** stability quickly
+2. **Release** quality
+3. **Listen** to users
+4. **Be matured** and **productive** model
+
