@@ -16,11 +16,13 @@ Develop, Engage, Earn
 2. Earn money
    - **Business:** Ensure realtime cashflow
 
-Alpha version: Completion + Testers
+Versions
+--------
+**Alpha** Completion + Testers
 
-Beta version: Quality + Users
+**Beta** Quality + Users 
 
-Production version: Business
+**Production** Business
 
 Remember
 --------
