@@ -12,5 +12,5 @@ Use tool what you know the best where you and your team is comfortable with that
 1. **Understand** and **Complete**|**Implement** stability quickly
 2. **Release** quality
 3. **Listen** to users
-4. **Be matured** and **productive** model
+4. **Be matured** and **productive** and **reliable** model
 
