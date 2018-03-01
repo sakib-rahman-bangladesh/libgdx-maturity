@@ -10,11 +10,17 @@ You need to build something before you know what you are building! Use tool what
 
 Develop, Engage, Earn
 ---------------------
-1. Develop product & Engage users 
-   - **Completion:** Quick completion first, following RERO(release early, release often, listen to customers)
-   - **Quality:** Release quality where **stop spending ours with researching**
-4. Earn money
+1. Develop product & Engage users
+   - **Completion:** Quick completion(all features) first, following RERO(release early, release often, listen to customers)
+   - **Quality:** Release quality(improve look and feel, increase performance, fix errors) where **stop spending ours with researching**
+2. Earn money
    - **Business:** Ensure realtime cashflow
+
+Alpha version: Completion + Testers
+
+Beta version: Quality + Users
+
+Production version: Business
 
 Remember
 --------
