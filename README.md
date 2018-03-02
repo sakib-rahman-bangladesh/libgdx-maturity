@@ -28,4 +28,4 @@ Remember
 --------
 Ideas don't come out fully formed. They only become clear as you work on them. You just have to get started. Get started is easy but **doing something great is actually difficult**. Successful peoples success strategy keys are  consist of **Goal**, **Discipline**, **consistancy**, **plan**, **time**, **hard working**.
 
-Followers: (computer-architecture](https://github.com/sakib-rahman-bangladesh/computer-architecture/releases/tag/2018.Mar3.1.6.0)
+Followers: [computer-architecture](https://github.com/sakib-rahman-bangladesh/computer-architecture/releases/tag/2018.Mar3.1.6.0)
