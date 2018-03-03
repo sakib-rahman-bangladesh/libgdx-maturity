@@ -2,7 +2,7 @@
 Human can't predict the future! What's emergence truth now it may be failed soon. Don't need to show excuse! Just, failure is only mine. Be always ready to take the greatest challenge ever you didn't face. **Show what u did then what u know.**
 #### Experience > Implementation > Imagination > Knowledge > Education ####
 
-Where, **Intution** is opposite to **Experience**, and build intutive AI (my current research) 
+**Intution** is opposite to **Experience**, and build intutive AI (my current research implementation going on...) Where Experience, Intution hurted me first from Al Amin Rana)  
 
 Build first
 -----------
