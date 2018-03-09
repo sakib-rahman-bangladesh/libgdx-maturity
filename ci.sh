@@ -62,8 +62,9 @@ echo
 ## Solved issues
 ## Default: Commit skipped|forgotten
 ## CSE360: Change detected, uploading ...
+## Completion release! Level 1-2: Getting Started with LibGDX
 
-git commit -m "UPDATE cheatsheet.md"
+git commit -m "Completion release 1.3.01! DRAWING: DrawingPoints"
 
 ############
 # Step: 05 #
