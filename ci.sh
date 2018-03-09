@@ -63,7 +63,7 @@ echo
 ## Default: Commit skipped|forgotten
 ## CSE360: Change detected, uploading ...
 
-git commit -m "Completion release! Level 1-2: Getting Started with LibGDX"
+git commit -m "UPDATE cheatsheet.md"
 
 ############
 # Step: 05 #
