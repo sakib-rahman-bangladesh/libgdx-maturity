@@ -2,6 +2,7 @@ package com.udacity.gamedev.starfield;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
@@ -79,14 +80,30 @@ public class Starfield extends ApplicationAdapter {
 
         // TODO: Begin a shapeRenderer batch using ShapeType.Point
         shapeRenderer.begin(ShapeType.Point);
-        Random random1, random2;
+
         // TODO: Loop through the star positions and use shapeRenderer to draw points
         for (Vector2 star : stars){
             shapeRenderer.point(star.x, star.y, 0);
-            random1 = new Random();
-            random2 = new Random();
 
+            // Solution: 1
+            // Make comment before going to use solution 2
+            Random random1 = new Random();
+            Random random2 = new Random();
             shapeRenderer.setColor(random1.nextInt(1), random2.nextInt(2), 1, 1);
+
+            // Solution: 2
+            /*
+            Random random = new Random();
+            int logicValue = random.nextInt(6);
+            switch (logicValue) {
+                case 1: shapeRenderer.setColor(Color.GREEN); break;
+                case 2: shapeRenderer.setColor(Color.CYAN); break;
+                case 3: shapeRenderer.setColor(Color.WHITE); break;
+                case 4: shapeRenderer.setColor(Color.YELLOW); break;
+                case 5: shapeRenderer.setColor(Color.MAGENTA); break;
+                default: break;
+            }
+            */
         }
         // TODO: End the shapeRenderer batch
         shapeRenderer.end();

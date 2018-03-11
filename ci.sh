@@ -64,7 +64,7 @@ echo
 ## CSE360: Change detected, uploading ...
 ## Completion release! Level 1-2: Getting Started with LibGDX
 
-git commit -m "DRAWING: Draw a starfield"
+git commit -m "Upload changes"
 
 ############
 # Step: 05 #
