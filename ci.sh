@@ -53,7 +53,7 @@ git add .
 echo [ Done ]  Committing...
 echo
 #############################
-## follow up simple commit ##
+## follow up sample commit ##
 #############################
 ## Rename 1_GAME_CHEATSHEET_JAVA.md to 1_GAME_DEV_CHEATSHEET_JAVA.md
 ## Create file.ext
@@ -64,7 +64,11 @@ echo
 ## CSE360: Change detected, uploading ...
 ## Completion release! Level 1-2: Getting Started with LibGDX
 
-git commit -m "Upload changes"
+## Upload changes
+## DRAWING: DrawingLines
+## cr = completion release, qr=quality release, pr=production release
+
+git commit -m "cr1.3.03 DRAWING: DrawingLines"
 
 ############
 # Step: 05 #
