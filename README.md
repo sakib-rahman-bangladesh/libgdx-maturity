@@ -1,0 +1,33 @@
+# Philosophy
+Human can't predict the future! What's emergence truth now it may be failed soon. Don't need to show excuse! Just, failure is only mine. Be always ready to take the greatest challenge ever you didn't face. **Show what u did then what u know.**
+#### Experience > Implementation > Imagination > Knowledge > Education ####
+
+**Intution** is opposite to **Experience** and out of logic/philosophy, and build intutive AI (my current research [implementation](https://www.youtube.com/watch?v=8nt3edWLgIg) going on...) Where Experience, Intution hurted me first from **Al Amin Rana**
+
+Build first
+-----------
+You need to build something before you know what you are building! Use tool what you know the best where you and your team is comfortable with that and run with that. Because since you can't be sure of what you're building whatever tool that you pick is going be badly adapted for what you're doing. 
+
+[How do we figure out what we are building?](https://www.youtube.com/watch?v=DFP6UDgVJtE)
+
+Develop, Engage, Earn
+---------------------
+1. Develop product & Engage users
+   - **Completion:** Quick completion(all features) first, following RERO(release early, release often, listen to customers)
+   - **Quality:** Release quality(improve look and feel, increase performance, fix errors) where **stop spending ours with researching**
+2. Earn money
+   - **Business:** Ensure realtime cashflow
+
+Targets from versions
+---------------------
+**Alpha** Completion + Testers
+
+**Beta** Quality + Users 
+
+**Production** Business
+
+Remember
+--------
+Ideas don't come out fully formed. They only become clear as you work on them. You just have to get started. Get started is easy but **doing something great is actually difficult**. Successful peoples success strategy keys are  consist of **Goal**, **Discipline**, **consistancy**, **plan**, **time**, **hard working**.
+
+Followers: [computer-architecture](https://github.com/sakib-rahman-bangladesh/computer-architecture/releases/tag/2018.Mar3.1.6.0)
