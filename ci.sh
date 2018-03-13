@@ -64,7 +64,9 @@ echo
 ## CSE360: Change detected, uploading ...
 ## Completion release! Level 1-2: Getting Started with LibGDX
 
-git commit -m "Rollback: 1.3.03 DrawingLines"
+git commit -m "🔴 Challenge 1: rollback failed"
+
+## TODO: Retrieve previous 45 commit. url: https://github.com/sakib-rahman-bangladesh/libgdx-maturity/tree/d90e2305eed6af5bb528e0c9e8f17c96d5e570d9
 
 ############
 # Step: 05 #
