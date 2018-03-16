@@ -49,6 +49,20 @@ public class DrawASpiral extends ApplicationAdapter {
         int xStep = screenWidth / 2 / COILS;
         int yStep = screenHeight / 2 / COILS;
 
+        /*
+        xStep = screenWidth/2;
+        yStep = screenHeight/2/COILS;
+        shapeRenderer.point(xStep, yStep, 0);
+
+        xStep = screenWidth/2;
+        yStep = 2 * screenHeight/2/COILS;
+        shapeRenderer.point(xStep, yStep, 0);
+
+        xStep = screenWidth/2;
+        yStep = 3 * screenHeight/2/COILS;
+        shapeRenderer.point(xStep, yStep, 0);
+        */
+
         // screenWidth & screenHeight ??
 
         // DEBUG: Analysis to get solution
@@ -69,6 +83,24 @@ public class DrawASpiral extends ApplicationAdapter {
         point2 = new Vector2(screenWidth - x, y);
         shapeRenderer.line(point1, point2);
 
+        x = 1;
+        y = 1;
+        point1 = new Vector2(x, y);
+        point2 = new Vector2(screenWidth, y);
+        shapeRenderer.line(point1, point2);
+
+        x = 1;
+        y = 2;
+        point1 = new Vector2(x, y);
+        point2 = new Vector2(screenWidth, y);
+        shapeRenderer.line(point1, point2);
+
+        x = 1;
+        y = 3;
+        point1 = new Vector2(x, y);
+        point2 = new Vector2(screenWidth - 10, y);
+        shapeRenderer.line(point1, point2);
+
         x = 3 * ratio;
         y = 3 * ratio;
         point1 = new Vector2(x, y);
@@ -87,6 +119,57 @@ public class DrawASpiral extends ApplicationAdapter {
         point2 = new Vector2(screenWidth - x, y);
         shapeRenderer.line(point1, point2);
         */
+
+        // Sakib's solution
+        // accidental-math
+        /*
+        for (int i = 0; i < COILS; i++) {
+            int x = xStep * i;
+            int y = yStep * i;
+
+            Vector2 point1 = new Vector2(x, yStep);
+            Vector2 point2 = new Vector2(screenWidth - x, y);
+
+            shapeRenderer.line(point1, point2);
+        }
+        */
+
+        // Made like exercise solution without exercise help
+        // Now, fulfil requirement: DrawASpiral
+        /*
+        for (int ratio = 0; ratio < COILS; ratio++) {
+            int x = xStep * ratio;
+            int y = yStep * ratio;
+
+            Vector2 point1 = new Vector2(x, y);
+            Vector2 point2 = new Vector2(screenWidth - x, y);
+
+            Vector2 point3 = new Vector2(screenWidth - x, screenHeight - y);
+            Vector2 point4 = new Vector2(x, screenHeight - y);
+
+            shapeRenderer.line(point1, point2);
+            shapeRenderer.line(point2, point3);
+            shapeRenderer.line(point1, point4);
+            shapeRenderer.line(point3, point4);
+        }
+        */
+
+        // DrawASpiral
+        for (int ratio = 0; ratio < COILS; ratio++) {
+            int x = xStep * ratio;
+            int y = yStep * ratio;
+
+            Vector2 point1 = new Vector2(x, y);
+            Vector2 point2 = new Vector2(screenWidth - x, y);
+
+            Vector2 point3 = new Vector2(screenWidth - x, screenHeight - y);
+            Vector2 point4 = new Vector2(x, screenHeight - y);
+
+            shapeRenderer.line(point1, point2);
+//            shapeRenderer.line(point2, point3);
+//            shapeRenderer.line(point1, point4);
+//            shapeRenderer.line(point3, point4);
+        }
 
         /*
         for (int i = 0; i < COILS; i++) {
@@ -119,10 +202,11 @@ public class DrawASpiral extends ApplicationAdapter {
 
 //            shapeRenderer.setColor(Color.WHITE);
             shapeRenderer.line(point1, point2);
-//            shapeRenderer.line(point2, point3);
+            shapeRenderer.line(point2, point3);
 //            shapeRenderer.line(point3, point4);
 //            shapeRenderer.line(point4, point5);
-        }*/
+        }
+        */
 
         shapeRenderer.end();
     }

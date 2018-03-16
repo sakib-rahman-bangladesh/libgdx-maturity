@@ -64,8 +64,9 @@ echo
 ## CSE360: Change detected, uploading ...
 ## Completion release! Level 1-2: Getting Started with LibGDX
 ## DRAWING: cr1.3.04 ConnectTheDots|Generator
+## UPLOAD: Analysis report of 1.3.05-Exercise-DrawASprial
 
-git commit -m "UPLOAD: Analysis report of 1.3.05-Exercise-DrawASprial"
+git commit -m "DRAWING: understand libs"
 
 ## TODO: Retrieve previous 45 commit. url: https://github.com/sakib-rahman-bangladesh/libgdx-maturity/tree/d90e2305eed6af5bb528e0c9e8f17c96d5e570d9
 
