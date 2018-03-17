@@ -66,7 +66,7 @@ echo
 ## DRAWING: cr1.3.04 ConnectTheDots|Generator
 ## UPLOAD: Analysis report of 1.3.05-Exercise-DrawASprial
 
-git commit -m "DRAWING: understand libs"
+git commit -m "DRAWING: DEBUG to make ACCURATE"
 
 ## TODO: Retrieve previous 45 commit. url: https://github.com/sakib-rahman-bangladesh/libgdx-maturity/tree/d90e2305eed6af5bb528e0c9e8f17c96d5e570d9
 
