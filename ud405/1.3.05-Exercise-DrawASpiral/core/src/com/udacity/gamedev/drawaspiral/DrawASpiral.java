@@ -63,9 +63,7 @@ public class DrawASpiral extends ApplicationAdapter {
         shapeRenderer.point(xStep, yStep, 0);
         */
 
-        // screenWidth & screenHeight ??
-
-        // DEBUG: Analysis to get solution
+        // TODO: (sakib cmd) DEBUG: Analysis to get solution
         /*
         Vector2 point1, point2;
         int x, y;
@@ -134,7 +132,7 @@ public class DrawASpiral extends ApplicationAdapter {
         }
         */
 
-        // Made like exercise solution without exercise help
+        // TODO: (sakib cmd) Made like exercise solution without exercise help
         // Now, fulfil requirement: DrawASpiral
         /*
         for (int ratio = 0; ratio < COILS; ratio++) {
@@ -159,51 +157,52 @@ public class DrawASpiral extends ApplicationAdapter {
         int increment, x, y;
 
         increment = 0;
-        xStep = 10;
+        xStep = 20;
         yStep = 10;
 
         x = xStep * increment; y = yStep * increment;
         Vector2 p1 = new Vector2(x, y);
         Vector2 p2 = new Vector2(screenWidth - x, y);
         Vector2 p3 = new Vector2(screenWidth - x, screenHeight - y);
-        Vector2 p4 = new Vector2(x + increment + xStep, screenHeight - y);
-        Vector2 p5 = new Vector2(x + increment + yStep, y + increment + yStep);
+        Vector2 p4 = new Vector2(x + xStep, screenHeight - y);
+        Vector2 p5 = new Vector2(x + xStep, y + yStep);
         shapeRenderer.line(p1, p2);
         shapeRenderer.line(p2, p3);
         shapeRenderer.line(p4, p3);
         shapeRenderer.line(p4, p5);
 
         increment = 1;
-        xStep = 10;
+        xStep = 20;
         yStep = 10;
 
         x = xStep * increment; y = yStep * increment;
         p1 = new Vector2(x, y);
         p2 = new Vector2(screenWidth - x, y);
         p3 = new Vector2(screenWidth - x, screenHeight - y);
-        p4 = new Vector2(x + increment + xStep, screenHeight - y);
-        p5 = new Vector2(x + increment + yStep, y + increment + yStep);
+        p4 = new Vector2(x + xStep, screenHeight - y);
+        p5 = new Vector2(x + xStep, y + yStep);
+
         shapeRenderer.line(p1, p2);
         shapeRenderer.line(p2, p3);
         shapeRenderer.line(p4, p3);
         shapeRenderer.line(p4, p5);
 
         increment = 2;
-        xStep = 10;
+        xStep = 20;
         yStep = 10;
 
         x = xStep * increment; y = yStep * increment;
         p1 = new Vector2(x, y);
         p2 = new Vector2(screenWidth - x, y);
         p3 = new Vector2(screenWidth - x, screenHeight - y);
-        p4 = new Vector2(x + increment + xStep, screenHeight - y);
-        p5 = new Vector2(x + increment + yStep, y + increment + yStep);
+        p4 = new Vector2(x + xStep, screenHeight - y);
+        p5 = new Vector2(x + xStep, y + yStep);
+
         shapeRenderer.line(p1, p2);
         shapeRenderer.line(p2, p3);
         shapeRenderer.line(p4, p3);
         shapeRenderer.line(p4, p5);
         */
-
 
         // TODO: (sakib cmd) Now, to do this continuously, Multiply with decremental ratio within a loop
         // NOT Accurate
@@ -225,10 +224,12 @@ public class DrawASpiral extends ApplicationAdapter {
         }
         */
 
-        // TODO: (sakib cmd) DEBUG and Make Accurate
+        // TODO: [DONE] (sakib cmd) DEBUG and Make Accurate
+        // Not accurate with the requirement
+        /*
         int x, y;
         Vector2 p1, p2, p3, p4, p5;
-        for (int increment = 1; increment < COILS; increment++) {
+        for (int increment = 0; increment < COILS; increment++) {
 
             x = xStep * increment;
             y = yStep * increment;
@@ -236,34 +237,39 @@ public class DrawASpiral extends ApplicationAdapter {
             p1 = new Vector2(x, y);
             p2 = new Vector2(screenWidth - x, y);
             p3 = new Vector2(screenWidth - x, screenHeight - y);
-            p4 = new Vector2(x + increment + xStep, screenHeight - y);
-            p5 = new Vector2(x + increment + xStep, y + increment + yStep);
+            p4 = new Vector2(x + xStep, screenHeight - y);
+            p5 = new Vector2(x + xStep, y + yStep);
 
             shapeRenderer.line(p1, p2);
             shapeRenderer.line(p2, p3);
             shapeRenderer.line(p4, p3);
             shapeRenderer.line(p4, p5);
         }
-
-        /*
-        // Automatic: DrawASpiral
-        for (int ratio = 0; ratio < COILS; ratio++) {
-            int x = xStep * ratio;
-            int y = yStep * ratio;
-
-            Vector2 point1 = new Vector2(x, y);
-            Vector2 point2 = new Vector2(screenWidth - x, y);
-
-            Vector2 point3 = new Vector2(screenWidth - x, screenHeight - y);
-            Vector2 point4 = new Vector2(x, screenHeight - y);
-
-            shapeRenderer.line(point1, point2);
-//            shapeRenderer.line(point2, point3);
-//            shapeRenderer.line(point1, point4);
-//            shapeRenderer.line(point3, point4);
-        }
         */
 
+        // TODO: [Done] Accurate with the requirement
+        int x, y;
+        Vector2 p1, p2, p3, p4, p5;
+        for (int increment = 0; increment < COILS; increment++) {
+
+            x = xStep * increment;
+            y = yStep * increment;
+
+            // solution trick
+            p1 = new Vector2(x - xStep, y);
+            // why was not accurate: p1 = new Vector2(x, y);
+            p2 = new Vector2(screenWidth - x, y);
+            p3 = new Vector2(screenWidth - x, screenHeight - y);
+            p4 = new Vector2(x, screenHeight - y);
+            p5 = new Vector2(x, y + yStep);
+
+            shapeRenderer.line(p1, p2);
+            shapeRenderer.line(p2, p3);
+            shapeRenderer.line(p3, p4);
+            shapeRenderer.line(p4, p5);
+        }
+
+        // Already given code to modify
         /*
         for (int i = 0; i < COILS; i++) {
             int xOffset = xStep * i;
