@@ -70,7 +70,7 @@ echo
 ## DRAWING: debug to accurate
 ## 💚 DRAWING: cr2018.Mar18.1.3.05
 
-git commit -m "DRAWING: UPLOAD 1.3.06-Demo-DrawingRectangles"
+git commit -m "DRAWING: TODO 1.3.07-1.3.09"
 
 ## TODO: Retrieve previous 45 commit. url: https://github.com/sakib-rahman-bangladesh/libgdx-maturity/tree/d90e2305eed6af5bb528e0c9e8f17c96d5e570d9
 
